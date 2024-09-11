@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -135,7 +135,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -192,7 +192,9 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
-    width: 100%; }
+    width: 100%; 
+    position: absolute;
+    bottom: 0;}
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
@@ -436,6 +438,21 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+.desc-details {
+  text-align: left;
+}
+.desc-title{
+  min-height: 110px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.desc-title h3{
+  color: #2c98f0;
+}
+
+.desc-disclaimer{
+  font-style: italic;
+}
 
 .hire {
   padding: 2em;
